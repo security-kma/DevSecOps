@@ -2,7 +2,12 @@
   <br>
   <a href=""><img src="https://user-images.githubusercontent.com/13212227/99404580-2374f000-292f-11eb-9348-284f24cca88c.png" alt="" width="500px;"></a>
   <br>
-  <img src="https://img.shields.io/badge/PRs-welcome-blue"> <img src="https://img.shields.io/github/last-commit/hahwul/DevSecOps">
+  <img src="https://img.shields.io/badge/PRs-welcome-blue">
+  <img src="https://img.shields.io/github/last-commit/hahwul/DevSecOps">
+  <img src="https://github.com/hahwul/DevSecOps/workflows/CodeQL/badge.svg">
+  <img src="https://api.codacy.com/project/badge/Grade/e5fd334a431848dcb6ecdb3784fb5dfb">
+  <a href="https://twitter.com/intent/follow?screen_name=hahwul"><img src="https://img.shields.io/twitter/follow/hahwul?style=flat&logo=twitter"></a>
+  <a href="https://github.com/hahwul"><img src="https://img.shields.io/github/stars/hahwul?style=flat&logo=github"></a>
 </h1>
 
 > Roadmap for everyone who wants DevSecOps.
@@ -21,6 +26,7 @@
   * [6. Operate and Monitor](#6-operate-and-monitor)
 - [Other roadmaps](#-other-roadmaps)
 - [Wrap Up](#-wrap-up)
+- [Contributors](#contributors)
 - [Contribute](https://github.com/hahwul/DevSecOps/blob/main/CONTRIBUTING.md)
 
 ## 💭 Roadmap
@@ -36,8 +42,11 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Development Lifecycle
     1. [SDL(Secure Development Lifecycle) by Microsoft](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
   - Threat Model
-    1. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
-    2. [Application Threat Modeling by OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
+    1. [What is Threat Modeling / Wikipedia](https://en.wikipedia.org/wiki/Threat_model)
+    2. [Threat Modeling by OWASP](https://owasp.org/www-community/Threat_Modeling)
+    3. [Application Threat Modeling by OWASP](https://owasp.org/www-community/Application_Threat_Modeling)
+    4. [Agile Threat Modeling Toolkit](https://threagile.io)
+    5. [OWASP Threat Dragon](https://threatdragon.github.io)
 ### 2. Develop
   - Secure Coding
     1. [Secure coding guide by Apple](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
@@ -53,6 +62,7 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - DAST(Dynamic Application Security Testing)
     1. [Dynamic Application Security Testing with ZAP and GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/) 
     2. [Dynamic Application Security Testing (DAST) in Gitlab](https://docs.gitlab.com/ee/user/application_security/dast/)
+    3. [DAST using pdiscoveryio Nuclei (github action)](https://github.com/secopslab/nuclei-action)
   - Penetration testing
 ### 5. Deploy
   - Security Hardening & Config
@@ -60,13 +70,15 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
   - Security Scanning
 ### 6. Operate and Monitor
   - RASP(Run-time Application Security Protection)
+    1. [Runtime Application Self-Protection by rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
+    2. [Jumpstarting your devsecops - Pipeline with IAST and RASP](https://2018.appsec.eu/presos/DevOps_Jumpstarting-Your-DevSecOps_Jeff-Williams_AppSecEU2018.pdf)
   - Security Patch
   - Security Audit
   - Security Monitor
   - Security Analysis
 
 ## 🚀 Other roadmaps
-| ![](https://media-exp1.licdn.com/dms/image/C4E12AQFQbzupC5vn1w/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=wTgChj5fKaR8cZE_L2S8tqJRtHWgTRlkBrXff23t7iQ) | ![](https://media-exp1.licdn.com/dms/image/C4E12AQF7E1TAzUmVJA/article-inline_image-shrink_1500_2232/0?e=1611187200&v=beta&t=kOWtRXjjAcAi5F_KBA_Xe4tlIv_vehAhfV7NgOIz9jY) |
+| ![](/assets/dod.png) | ![](/assets/LarryMaccherone.jpg) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |   U.S. Department of Defense           | Larry Maccherone                                       |
 | [![](https://i.imgur.com/pQXVOzS.png)](https://assets.sqreen.com/whitepapers/devsecops-security-checklist.pdf) |
@@ -76,3 +88,6 @@ Open https://github.com/hahwul/DevSecOps/blob/main/tools/README.md
 If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
 
 Idea from : [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap)
+
+## Contributors
+![](/CONTRIBUTORS.svg)
